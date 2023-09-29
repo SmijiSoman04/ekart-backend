@@ -1,0 +1,23 @@
+                                    Backend for Ekart
+                            .........................................
+        1.craete a new folder for ekart-Backend
+        2.install package.json file- npm init or npm init -y (install chythe ellathintteyum oru brief file annu package.json)
+        3.install express and some other
+           -npm i express cors mongoose dotenv
+               -> express- nodejs framework  
+               -> cors - used to connect two different ports(frontend-4200 and backend -5000)
+               -> mongoose - this library is used to connect node and mongodb
+               ->dotenv - This is environment variable , that are used to store app secrets and configuration .
+        4.Create .gitignore file and .env     (.env-to give connection string) (.gitignore- to ignore unwanted file during push to the github)
+        5.Create index.js (main entry point) and run the file
+
+
+                        mongodb  Atlas configuration
+                ..................................................
+        6.Add connection string to env file
+        7.Create a connection.js file for connect node and mongodb
+        8.Use mongoose to connect mongodb with node application
+        9.Import connection.js in index.js
+        10.Create Model/Collection to store products - model/productSchema.js
+        11.To define routes for client request - routes/router.js
+        12.To create controller folder inorder to define the logic to resolve the API 
